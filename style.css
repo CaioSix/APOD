@@ -1,0 +1,26 @@
+* {}
+
+body {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url(1200px-Andromeda_Galaxy_\(with_h-alpha\).jpg);
+}
+
+#conteudo {
+    display: flex;
+    text-align: center;
+    ;
+}
+
+#fundo {
+    display: flex;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
