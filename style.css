@@ -1,12 +1,10 @@
-* {}
-
 body {
     display: flex;
     color: white;
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    background-image: url(1200px-Andromeda_Galaxy_\(with_h-alpha\).jpg);
+    background-image: url(./fundo.jpg);
 }
 
 #conteudo {
@@ -15,12 +13,36 @@ body {
     ;
 }
 
-#fundo {
-    display: flex;
-}
-
 #titulo {
     font-weight: bold;
     font-size: 25px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textos {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.date {
+    margin: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.copyright {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }

@@ -7,6 +7,7 @@ function start() {
     $.ajax({
 
         url: url + "&date=" + data, // não entendi essa linha 
+
         success: function(result) {
             var api = result
             console.log(api)
@@ -19,7 +20,7 @@ function start() {
 function chosen(nasa) {
     $("#conteudo").html(nasa.explanation);
     $("#titulo").html(nasa.title);
-
+    $(".texto").css("display", "none"); //nao fica invisivel
     console.log(nasa.url)
 
     $('body').css("background-image", `url(${nasa.url})`); // como pegar img ?
